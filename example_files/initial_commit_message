@@ -1,0 +1,8 @@
+Initial Commit Including bashrc and Installer
+
+Adds my custom bashrc file and an installer for it.
+
+- Adds colors to "ls" by default
+
+- Loads in aliases from "~/.bash_aliases", although there are none
+  defined yet

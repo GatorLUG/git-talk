@@ -1,0 +1,36 @@
+\ProvidesPackage{beamergitcolors}
+% A slightly modified version of:
+% http://www.colourlovers.com/palette/435479/Hybrid_Design
+% is very similar to the git-scm.com website color-palette
+\usepackage{xcolor}
+
+\definecolor{gitblack}{HTML}{000000}
+\definecolor{gitgrey}{HTML}{777777}
+\definecolor{gitorange}{HTML}{F05033}
+\definecolor{gitwhite}{HTML}{FFFFFF}
+\definecolor{gitice}{HTML}{97B8B6}
+\definecolor{gitdead}{HTML}{CCDEDD}
+
+% A near-complete list of definable colors: http://pastebin.com/nK3BWG5v
+% For my own sanity, I do not define all the colors, just the most useful ones
+
+\setbeamercolor{logo}{fg=gitorange,bg=gitwhite}
+\setbeamercolor{block body}{fg=gitblack,bg=gitwhite}
+
+% define the title page
+\setbeamercolor{title}{fg=gitorange,bg=gitwhite}
+\setbeamercolor{subtitle}{fg=gitgrey}
+\setbeamercolor{author}{fg=gitblack}
+\setbeamercolor{date}{fg=gitblack}
+\setbeamercolor{institute}{fg=gitgrey}
+
+% define the bar at the bottom of each slide:
+\setbeamercolor{author in head/foot}{fg=gitblack,bg=gitice}
+\setbeamercolor{title in head/foot}{fg=gitblack,bg=gitdead}
+% define the bar at the top of each slide
+\setbeamercolor{section in head/foot}{fg=gitblack,bg=gitice}
+\setbeamercolor{subsection in head/foot}{fg=gitblack,bg=gitdead}
+
+% define the typical frame elements
+\setbeamercolor{frametitle}{fg=gitorange,bg=gitwhite}
+\setbeamercolor{item projected}{bg=gitgrey}

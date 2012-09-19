@@ -1,0 +1,11 @@
+[user]
+    name = Benjamin Woodruff
+    email = benjaminwoodruff@ufl.edu
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+[alias]
+    br = branch
+    co = checkout
+    st = status
+    df = diff

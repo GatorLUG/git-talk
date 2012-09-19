@@ -1,0 +1,21 @@
+commit 08a1fae681242457172b1c03da97f26122a1dbe8
+Author: Benjamin Woodruff <benjaminwoodruff@ufl.edu>
+Date:   Mon Sep 17 21:29:03 2012 -0400
+
+    Adds Commonly Used Aliases for "ls"
+    
+    sl, ll, and la aliases are defined. These changes are placed in
+    bash_aliases, which the installer is updated to install.
+
+commit d3ca0faa70de873f614f76cf64e6dbbb6bb80581
+Author: Benjamin Woodruff <benjaminwoodruff@ufl.edu>
+Date:   Mon Sep 17 18:16:28 2012 -0400
+
+    Initial Commit Including bashrc and Installer
+    
+    Adds my custom bashrc file and an installer for it.
+    
+    - Adds colors to "ls" by default
+    
+    - Loads in aliases from "~/.bash_aliases", although there are none
+      defined yet
